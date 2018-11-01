@@ -12,15 +12,15 @@
         <!--Page View Controller-->
         <scene sceneID="RQ7-eh-8FN">
             <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="X8n-gD-pAv" sceneMemberID="viewController"/>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="X8n-gD-pAv" customClass="PageViewController" customModule="GPACalculator" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fo5-6M-oGa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="796" y="89"/>
         </scene>
-        <!--View Controller-->
+        <!--View ControllerGPA-->
         <scene sceneID="gdq-GI-bdV">
             <objects>
-                <viewController storyboardIdentifier="sbViewA" id="Q95-kD-njE" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="sbViewA" id="Q95-kD-njE" customClass="ViewControllerGPA" customModule="GPACalculator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="VPL-kX-kox">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -32,10 +32,10 @@
             </objects>
             <point key="canvasLocation" x="1456" y="-456"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller Info-->
         <scene sceneID="a89-nj-NYj">
             <objects>
-                <viewController storyboardIdentifier="sbViewC" id="qyM-Vx-gV5" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="sbViewC" id="qyM-Vx-gV5" customClass="ViewControllerInfo" customModule="GPACalculator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zbm-ew-mio">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -47,10 +47,10 @@
             </objects>
             <point key="canvasLocation" x="2139" y="-81"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller Input-->
         <scene sceneID="2eT-Ij-bM6">
             <objects>
-                <viewController storyboardIdentifier="sbViewB" id="St7-2w-Kan" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="sbViewB" id="St7-2w-Kan" customClass="ViewControllerInput" customModule="GPACalculator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="q0r-yq-BbI">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
